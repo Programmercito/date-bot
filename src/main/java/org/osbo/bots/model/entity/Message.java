@@ -1,4 +1,4 @@
-package org.osbo.bots.entity;
+package org.osbo.bots.model.entity;
 
 import jakarta.annotation.sql.DataSourceDefinition;
 import jakarta.persistence.Entity;
