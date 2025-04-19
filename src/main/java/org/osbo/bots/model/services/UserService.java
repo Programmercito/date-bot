@@ -20,7 +20,7 @@ public class UserService {
         return userRepository.findById(id).orElse(null);
     }
 
-    public User Persiste(User user) {
+    public User persiste(User user) {
         User existingUser = userRepository.findById(user.getChatid()).orElse(null);
         if (existingUser != null) {
             return existingUser;
